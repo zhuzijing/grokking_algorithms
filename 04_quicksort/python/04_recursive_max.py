@@ -8,10 +8,10 @@ def max_(lst):
     return lst[0] if lst[0] > sub_max else sub_max
 
   
-  def max(arr):
-    max = 0
-    for x in arr:
-        if x > max:
-            max = x
-    return max
+def max(arr):
+  max = 0
+  for x in arr:
+    if x > max:
+      max = x
+  return max   
 print(max([1,1,2,8]))
