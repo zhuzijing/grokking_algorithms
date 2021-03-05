@@ -6,3 +6,11 @@ def max_(lst):
   else:
     sub_max = max_(lst[1:])
     return lst[0] if lst[0] > sub_max else sub_max
+
+def max(arr):
+  max = 0
+  for x in arr:
+    if x > max:
+      max = x
+  return max   
+print(max([1,1,2,8]))
